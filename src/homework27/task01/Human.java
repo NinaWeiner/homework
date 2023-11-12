@@ -5,20 +5,26 @@ public class Human {
   private String name;
   private int age;
 
-  public Human(String name, int age) {  // представлять
+  public Human(String name, int age) {  // ЭТО КОНСТРУКТОР
     this.name = name;
     this.age = age;
   }
-    public String getName() {
+
+  public String getName() {
+
     return name;
-    }
-    public int getAge() {
+  }
+
+  public int getAge() {
+
     return age;
-    }
-    public void setName (String name) {
+  }
+
+  public void setName(String name) {
     this.name = name;
-    }
-    public void setAge(int age) {
+  }
+
+  public void setAge(int age) {
     this.age = age;
-    }
+  }
 }
