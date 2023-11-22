@@ -8,12 +8,15 @@ package homework25.task01;
 public class Main01 {
 
   public static void main(String[] args) {
+
     Human anastasia = new Human();
     anastasia.name = "Anastasia";
     anastasia.agg = 36;
+
     Human wadim = new Human();
     wadim.name = "Wadim";
     wadim.agg = 19;
+
     Human marie = new Human();
     marie.name = "Marie";
     marie.agg = 28;
